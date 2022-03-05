@@ -6,7 +6,8 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 permalink: /
 ---
 
-# Focus on writing good documentation.
+# Focus on writing good documentation
+
 {: .fs-9 }
 
 Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
@@ -35,28 +36,34 @@ remote_theme: just-the-docs/just-the-docs
 ### Local installation: Use the gem-based theme
 
 1. Install the Ruby Gem
+
   ```bash
-  $ gem install just-the-docs
+  gem install just-the-docs
   ```
+
   ```yaml
   # .. or add it to your your Jekyll site’s Gemfile
   gem "just-the-docs"
   ```
 
 2. Add Just the Docs to your Jekyll site’s `_config.yml`
+
   ```yaml
   theme: "just-the-docs"
   ```
 
 3. _Optional:_ Initialize search data (creates `search-data.json`)
+
   ```bash
-  $ bundle exec just-the-docs rake search:init
+  bundle exec just-the-docs rake search:init
   ```
 
 3. Run you local Jekyll server
+
   ```bash
-  $ jekyll serve
+  jekyll serve
   ```
+
   ```bash
   # .. or if you're using a Gemfile (bundler)
   $ bundle exec jekyll serve
@@ -85,7 +92,7 @@ Just the Docs is distributed by an [MIT license](https://github.com/just-the-doc
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/just-the-docs/just-the-docs#contributing).
 
-#### Thank you to the contributors of Just the Docs!
+#### Thank you to the contributors of Just the Docs
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
